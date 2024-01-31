@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+var array = [1,2,4,6,5,3];
+var n1 = array.filter(numero=>numero%2===0)
+var n2 = n1.map(numero =>numero**2)
+var tot = n2.reduce((acc,valore)=>acc+valore,0)
+console.log(tot)
+
+
+    </script>
+
+
+</body>
+</html>
+
+
